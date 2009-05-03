@@ -1,0 +1,15 @@
+/*
+Theme Name: #geekcampmy09
+Theme URI: http://geekcamp.my
+Description: Wordpress Implementation For #geekcampmy09.
+Version: 1.0
+Author: Ariff Azraai
+Author URI: http://mentariworks.com
+Tags: green, fixed width, two columns
+*/
+
+/* we reset everything */
+@import url("reset.css");
+
+/* globallly used template */
+@import url("global.css");

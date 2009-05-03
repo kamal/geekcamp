@@ -5,7 +5,7 @@ Template Name: Home
 ?>
 <?php get_header(); ?>
     <div class="left" id="content">
-      <div id="the-quote">&ldquo;I'm going to run GeekCamp. All technical talks, single track. No offense to marketers, *preneurs, social media experts but you can suck it.&rdquo;<span class="right" id="the-cite"><a href="http://twitter.com/kamal" title="@kamal">@kamal</a>, #geekcamp BDFL.</span></div>
+      <div id="the-quote">&ldquo;I'm going to run GeekCamp. All technical talks, single track. No offense to marketers, *preneurs, social media experts but you can suck it.&rdquo;<span class="right" id="the-cite"><a href="http://twitter.com/kamal/status/1524835454" title="@kamal on Apr 15th 2009">@kamal</a></span></div>
       <div class="clear"></div>
       <div class="content-widget" id="welcome">
         <h1>An Introduction</h1>

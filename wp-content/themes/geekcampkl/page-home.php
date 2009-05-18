@@ -8,8 +8,8 @@ Template Name: Home
       <div id="the-quote">&ldquo;I'm going to run GeekCamp. All technical talks, single track. No offense to marketers, *preneurs, social media experts but you can suck it.&rdquo;<span class="right" id="the-cite"><a href="http://twitter.com/kamal/status/1524835454" title="@kamal on Apr 15th 2009">@kamal</a></span></div>
       <div class="clear"></div>
       <div class="content-widget" id="welcome">
-        <h1>An Introduction</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut  sapien. Phasellus accumsan mollis mi. Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Nunc odio magna, gravida et, gravida nec,  viverra sed, tellus. Maecenas tempor, arcu non ullamcorper aliquam,  nisl urna feugiat turpis, ac accumsan tellus metus sit amet dolor.  Maecenas condimentum faucibus lacus. Cum sociis natoque penatibus et  magnis dis parturient montes, nascetur ridiculus mus. Proin at risus a  sem congue lobortis. Pellentesque metus neque, convallis ut, rhoncus  ut, scelerisque quis, magna. Phasellus mauris. Praesent ligula sapien,  gravida quis, ornare ut, fringilla sed, metus. Integer mi mauris,  tempor eu, condimentum et, pretium et, urna. Nullam pretium lectus sed  lectus. Nullam quis purus eget orci gravida venenatis. Suspendisse sed  dolor.</p>
+        <h1>What is #geekcamp?</h1>
+        <p>#geekcamp is a full day, single track technical talks event squarely aimed at the geeks at heart. Don't expect watered down talks or marketing and sales drivel. We show you real code by people in the trenches who are doing it for the love of technology.</p>
       </div>
       <div class="content-widget left" id="news">
         <h1>News &amp; Updates</h1>

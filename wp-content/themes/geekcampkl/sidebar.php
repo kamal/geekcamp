@@ -11,7 +11,7 @@
           <span><a href="http://www.integricity.com/">Integricity Corporation</a> in Bandar Utama.</span></div>
         <div class="item" id="w3-register">
           <h2>Registration</h2>
-          <span>Registration is not yet opened. Follow <a href="http://twitter.com/geekcamp">@geekcamp</a> to know the moment it opens!</span></div>
+          <span>Registration is not yet open. Follow <a href="http://twitter.com/geekcamp">@geekcamp</a> for the announcement!</span></div></div>
       <div class="widget" id="sponsors">
         <h2>Sponsors</h2>
         <ul>

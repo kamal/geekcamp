@@ -45,7 +45,7 @@
       <p>Find something else?</p>
       <?php get_search_form(); ?>
       </div>
-      <?php else if ( is_date() ) { ?>
+      <?php } else if ( is_date() ) { ?>
       <h1 class="page_title">Sorry, but there aren't any posts with this date.</h1>
       <p class="description">Try again in future!</p>
       <span class="home right"><a href="/">Back To Homepage</a></span>
@@ -53,7 +53,7 @@
       <p>Find something else?</p>
       <?php get_search_form(); ?>
       </div>
-      <?php else if ( is_author() ) { ?>
+      <?php } else if ( is_author() ) { ?>
       $userdata = get_userdatabylogin(get_query_var('author_name'));
       <h1 class="page_title"><?php printf("No post by %s yet!", $userdata->display_name); ?></h1>
       <p class="description">Try again in future!</p>
@@ -62,7 +62,7 @@
       <p>Find something else?</p>
       <?php get_search_form(); ?>
       </div>
-      <?php else { ?>
+      <?php } else { ?>
       <h1 class="page_title">Oops! We Kenot Fain  Your Fail!</h1>
       <p class="description">Somehow, the file is missing!</p>
       <span class="home right"><a href="/">Back To Homepage</a></span>

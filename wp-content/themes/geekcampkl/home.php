@@ -4,7 +4,7 @@
       <h1 class="page_title">News &amp; Updates</h1>
       <p class="description">Recently from #geekcamp volunteers!</p>
       <span class="home right"><a href="/">Back To Homepage</a></span>
-      <?php while (have_posts()) : the_post(); ?>
+      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <div class="post entry" id="post-<?php the_ID(); ?>">
         <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
         <p class="meta date author"><?php the_time('F jS, Y') ?> <?php the_author() ?></p>

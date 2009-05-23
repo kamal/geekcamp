@@ -19,7 +19,7 @@
 <div id="wrap">
   <div id="header">
     <div class="left" id="branding"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
-    <ul class="right" id="primary-navigation">
+    <ul class="right" id="navigation">
       <?php wp_list_pages('title_li=&sort_column=menu_order'); ?>
     </ul>
     <div class="clear"></div>

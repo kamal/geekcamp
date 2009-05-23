@@ -34,7 +34,7 @@ Template Name: Home
           <?php $bookmarks = get_bookmarks('orderby=rating&order=DESC&limit=5&category=3'); ?>
           <?php foreach($bookmarks as $b) { ?>
           <li id="buzz-link-<?php echo $b->link_id; ?>">
-            <h2><a href="<?php echo $b->link_url; ?>"><?php echo $b->link_name; ?></a></h2>
+            <h3><a href="<?php echo $b->link_url; ?>"><?php echo $b->link_name; ?></a></h3>
             <span><?php echo $b->link_description; ?></span></li>
           <?php } ?>
         </ul>

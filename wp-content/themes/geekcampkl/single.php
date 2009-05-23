@@ -2,7 +2,7 @@
   <div id="canvas">
     <div class="left single" id="content">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-      <div class="post" id="post-3">
+      <div class="post entry" id="post-3">
         <h1 class="page_title"><?php the_title(); ?></h1>
         <p class="meta date author"><?php the_time('F jS, Y') ?> <?php the_author() ?></p>
         <div class="text">

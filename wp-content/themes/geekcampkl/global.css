@@ -81,6 +81,9 @@ a:hover { color: #3B8686; text-decoration: underline; }
 .post.entry .meta { font-size: 11px; line-height: 20px; }
 .post.entry .meta.date.author { color: #999999; margin-bottom: 10px; }
 
+/* Singe Page */
+#content.single .post.entry .meta { color: #999999; margin-bottom: 10px; }
+
 /* Static Page */
 .post.page h1 { color: #0B486B; }
 

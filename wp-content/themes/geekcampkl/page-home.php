@@ -19,7 +19,7 @@ Template Name: Home
       </div>
       <div class="widget left" id="news">
         <h2>News &amp; Updates</h2>
-        <a href="#" class="right more">previously &rarr;</a>
+        <a href="/news/" class="right more">previously &rarr;</a>
          <?php query_posts('showposts=1&orderby=date&order=DESC'); ?><?php if (have_posts()) : while (have_posts()) : the_post(); ?>
          <div class="post">
           <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>

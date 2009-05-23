@@ -37,7 +37,7 @@
         <div class="clear"></div>
       </div>
       <?php else: ?>
-      <?php if ( is_category() ) { { ?>
+      <?php if ( is_category() ) { ?>
       <h1 class="page_title"><?php printf("No post for %s category yet!", single_cat_title('',false)); ?></h1>
       <p class="description">Try again in future!</p>
       <span class="home right"><a href="/">Back To Homepage</a></span>

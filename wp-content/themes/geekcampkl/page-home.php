@@ -4,27 +4,32 @@ Template Name: Home
 */
 ?>
 <?php get_header(); ?>
-    <div class="left" id="content">
-      <div id="the-quote">&ldquo;I'm going to run GeekCamp. All technical talks, single track. No offense to marketers, *preneurs, social media experts but you can suck it.&rdquo;<span class="right" id="the-cite"><a href="http://twitter.com/kamal/status/1524835454" title="@kamal on Apr 15th 2009">@kamal</a></span></div>
-      <div class="clear"></div>
-      <div class="content-widget" id="welcome">
-        <h1>What is #geekcamp?</h1>
-        <p>#geekcamp is a full day, single track technical talks event squarely aimed at the geeks at heart. Don't expect watered down talks or marketing and sales drivel. We show you real code by people in the trenches who are doing it for the love of technology.</p>
+  <div id="canvas">
+    <div class="left home" id="content">
+      <h1 class="page_title hide">Home</h1>
+      <div class="widget" id="quote">
+        <h2 class="hide">The Quote</h2>
+        <p>&ldquo;I'm going to run GeekCamp. All technical talks, single track. No offense to marketers, *preneurs, social media experts but you can suck it.&rdquo;</p>
+        <span class="cite right"><a href="http://twitter.com/kamal/status/1524835454">@kamal</a></span>
+        <div class="clear"></div>
       </div>
-      <div class="content-widget left" id="news">
-        <h1>News &amp; Updates</h1>
-        <a href="/news/" class="right more">previously &rarr;</a>
-        <?php query_posts('showposts=1&orderby=date&order=DESC'); ?>
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="post">
-          <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+      <div class="widget" id="introduction">
+        <h2>What is #geekcamp?</h2>
+        <p>#geekcamp is a full day, single track technical talks event squarely aimed at the geeks at heart. Don't expect watered down talks or marketing and sales driven. We show you real code by people in the trenches who are doing it for the love of technology.</p>
+      </div>
+      <div class="widget left" id="news">
+        <h2>News &amp; Updates</h2>
+        <a href="#" class="right more">previously &rarr;</a>
+         <?php query_posts('showposts=1&orderby=date&order=DESC'); ?><?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+         <div class="post">
+          <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
           <span class="meta"><?php the_time('F jS, Y') ?></span>
           <?php the_excerpt(); ?>
         </div>
         <?php endwhile; endif; ?>
       </div>
-      <div class="content-widget right" id="buzz">
-        <h1>Spread The News</h1>
+      <div class="widget right" id="buzz">
+        <h2>Spread The News</h2>
         <ul>
           <?php $bookmarks = get_bookmarks('orderby=rating&order=DESC&limit=5&category=3'); ?>
           <?php foreach($bookmarks as $b) { ?>
@@ -36,5 +41,7 @@ Template Name: Home
       </div>
       <div class="clear"></div>
     </div>
-<?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
+    <div class="clear"></div>
+  </div>
 <?php get_footer(); ?>

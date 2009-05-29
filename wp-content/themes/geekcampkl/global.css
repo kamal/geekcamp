@@ -89,7 +89,8 @@ a:hover { color: #3B8686; text-decoration: underline; }
 
 /* Entry Text */
 .text p { line-height: 20px; margin-bottom: 20px; }
-.text ul { list-style-type: disc; margin-bottom: 0 0 30px 20px; }
+.text ol { list-style-type: decimal; margin: 0 0 30px 20px; }
+.text ul { list-style-type: disc; margin: 0 0 30px 20px; }
 .text li { line-height: 20px; }
 .text blockquote { line-height: 20px; background-color: #E4F0BE;  margin: 0 20px 20px; padding: 10px; }
 .text iframe { margin-bottom: 20px; }

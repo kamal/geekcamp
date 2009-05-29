@@ -21,6 +21,7 @@
     <div class="left" id="branding"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
     <ul class="right" id="navigation">
       <?php wp_list_pages('title_li=&sort_column=menu_order'); ?>
+      <li class="page_item page-item-hub"><a href="http://kamal.github.com/geekcamp-hub/" title="#geekcamp Hub">Hub</a></li>
     </ul>
     <div class="clear"></div>
   </div>
